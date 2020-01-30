@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Innavo</string>
+    <string name="title_location_permission">We need your location</string>
+    <string name="text_location_permission">We would like permission to access your location</string>
+    <string name="ok">OK</string>
+    <string name="favorieten">Favorieten</string>
+    <string name="recent">Recent</string>
+    <string name="menu_kaart">Kaart</string>
+    <string name="menu_favorieten">Favorieten</string>
+    <string name="menu_inchecken">Inchecken</string>
+    <string name="menu_vrienden">Vrienden</string>
+    <string name="menu_profiel">Profiel</string>
+    <string name="rate_building">Beoordeling</string>
+    <string name="show_building">Bekijk gebouw</string>
+    <string name="show_building_map">Bekijk plattegrond</string>
+    <string name="friends_visited">Chat met vrienden die dit gebouw bezocht hebben</string>
+    <string name="error_message">Er is een fout opgetreden</string>
+    <string name="todo">TODO</string>
+    <string name="button_close">Close</string>
+    <string name="et_or"> of </string>
+    <string name="et_username">Gebruikersnaam</string>
+    <string name="et_email">E-mail</string>
+    <string name="et_password">Wachtwoord</string>
+    <string name="b_register">Registreer</string>
+    <string name="b_login">Log in</string>
+    <string name="zoek_favoriet">Zoek favoriet</string>
+</resources>

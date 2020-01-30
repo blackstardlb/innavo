@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/email_address_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email@email.com"
+        android:inputType="textEmailAddress"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/email_address_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/indooratlas_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Open indoorAtlas"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:onClick="launchIndoorAtlas" />
+</LinearLayout>

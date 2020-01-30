@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_kaart"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="@string/menu_kaart" />
+    <item
+        android:id="@+id/action_favorieten"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="@string/menu_favorieten" />
+    <item
+        android:id="@+id/action_inchecken"
+        android:icon="@drawable/ic_nfc_black_24dp"
+        android:title="@string/menu_inchecken" />
+
+    <item
+        android:id="@+id/action_vrienden"
+        android:icon="@drawable/ic_friends_black_24dp"
+        android:title="@string/menu_vrienden" />
+
+    <item
+        android:id="@+id/action_profiel"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/menu_profiel" />
+</menu>
